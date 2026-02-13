@@ -29,7 +29,7 @@ FindITCTF{e4Zy_p1zY_l3M0n_sQu1zYyyY}
 
 - **__Analisis__** isi ZIP yang telah diunduh. Di dalamnya terdapat file `log_experiment.txt` berisi 1.000 baris data sampah. Ingat prinsip Ibu: *"History never lies"*. Periksa folder tersembunyi `.git` untuk melihat riwayat repository.
 
-- **__Temukan__** angka kunci dari postingan Instagram Ibu yang menyebutkan *"Experiment #742 was the turning point"*. Gunakan angka ini untuk mencari commit spesifik di masa lalu.
+- **__Temukan__** angka kunci dari postingan Instagram Ibu yang menyebutkan *"Experiment #24 was the turning point"*. Gunakan angka ini untuk mencari commit spesifik di masa lalu.
     ```bash
     git log --grep="24"
 
